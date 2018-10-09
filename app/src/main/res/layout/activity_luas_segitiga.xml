@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LuasSegitigaActivity"
+    android:orientation="vertical"
+    android:background="@color/bgBlue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="Hitung Luas Segitiga"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Rumus: Alas x Tinggi / 2"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/edtAlasSegitiga"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Input Alas"
+        android:textColorHint="#fff"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edtTinggiSegitiga"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:hint="Input Tinggi"
+        android:textColorHint="#fff"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txtHasilSegitiga"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="HASIL"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnHitungSegitiga"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorButton"
+        android:textColor="#fff"/>
+
+</LinearLayout>
